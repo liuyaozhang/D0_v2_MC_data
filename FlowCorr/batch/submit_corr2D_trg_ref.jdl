@@ -1,0 +1,23 @@
+universe   = vanilla
+getenv     = True
+executable = submit_corr2D_trg_ref.sh
+arguments  = 00 
+log        = log/submit_corr2D_trg_ref.$(Process).log
+output     = out/submit_corr2D_trg_ref.$(Process).out
+error      = err/submit_corr2D_trg_ref.$(Process).err
+requirements = (OpSysAndVer =?= "CentOS7")
++JobFlavour           = "workday"
+queue
+
+arguments  = 01 
+queue
+   
+arguments  = 02 
+queue
+ 
+arguments  = 03 
+queue
+  
+arguments  = 04 
+queue
+

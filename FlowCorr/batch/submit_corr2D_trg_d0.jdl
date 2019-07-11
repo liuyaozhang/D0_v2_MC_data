@@ -1,0 +1,335 @@
+universe   = vanilla
+getenv     = True
+executable = submit_corr2D_trg_d0.sh
+arguments  = 000 
+log        = log/submit_corr2D_trg_d0.$(Process).log
+output     = out/submit_corr2D_trg_d0.$(Process).out
+error      = err/submit_corr2D_trg_d0.$(Process).err
+requirements = (OpSysAndVer =?= "CentOS7")
++JobFlavour           = "workday"
+queue
+
+arguments  = 001 
+queue
+   
+arguments  = 002 
+queue
+ 
+arguments  = 003 
+queue
+  
+arguments  = 004 
+queue
+
+arguments  = 005 
+queue
+
+arguments  = 006 
+queue
+
+arguments  = 007 
+queue
+
+arguments  = 008 
+queue
+   
+arguments  = 009 
+queue
+ 
+arguments  = 010 
+queue
+   
+arguments  = 011 
+queue
+ 
+arguments  = 012 
+queue
+  
+arguments  = 013 
+queue
+
+arguments  = 014 
+queue
+
+arguments  = 015 
+queue
+
+arguments  = 016 
+queue
+
+arguments  = 017 
+queue
+   
+arguments  = 018 
+queue
+ 
+arguments  = 019 
+queue
+   
+arguments  = 020 
+queue
+ 
+arguments  = 021 
+queue
+  
+arguments  = 022 
+queue
+
+arguments  = 023 
+queue
+
+arguments  = 024 
+queue
+
+arguments  = 025 
+queue
+
+arguments  = 026 
+queue
+   
+arguments  = 027 
+queue
+ 
+arguments  = 028 
+queue
+   
+arguments  = 029 
+queue
+ 
+arguments  = 030 
+queue
+  
+arguments  = 031 
+queue
+
+arguments  = 032 
+queue
+
+arguments  = 033 
+queue
+
+arguments  = 034 
+queue
+
+arguments  = 035 
+queue
+   
+arguments  = 036 
+queue
+ 
+arguments  = 037 
+queue
+   
+arguments  = 038 
+queue
+ 
+arguments  = 039 
+queue
+  
+arguments  = 040 
+queue
+
+arguments  = 041 
+queue
+
+arguments  = 042 
+queue
+
+arguments  = 043 
+queue
+
+arguments  = 044 
+queue
+   
+arguments  = 045 
+queue
+ 
+arguments  = 046 
+queue
+   
+arguments  = 047 
+queue
+ 
+arguments  = 048 
+queue
+  
+arguments  = 049 
+queue
+
+arguments  = 050 
+queue
+
+arguments  = 051 
+queue
+
+arguments  = 052 
+queue
+
+arguments  = 053 
+queue
+   
+arguments  = 054 
+queue
+ 
+arguments  = 055 
+queue
+   
+arguments  = 056 
+queue
+ 
+arguments  = 057 
+queue
+  
+arguments  = 058 
+queue
+
+arguments  = 059 
+queue
+
+arguments  = 060 
+queue
+
+arguments  = 061 
+queue
+
+arguments  = 062 
+queue
+   
+arguments  = 063 
+queue
+ 
+arguments  = 064 
+queue
+   
+arguments  = 065 
+queue
+ 
+arguments  = 066 
+queue
+  
+arguments  = 067 
+queue
+
+arguments  = 068 
+queue
+
+arguments  = 069 
+queue
+
+arguments  = 070 
+queue
+
+arguments  = 071 
+queue
+   
+arguments  = 072 
+queue
+ 
+arguments  = 073 
+queue
+
+arguments  = 074 
+queue
+   
+arguments  = 075 
+queue
+
+arguments  = 076 
+queue
+ 
+arguments  = 077 
+queue
+
+arguments  = 078 
+queue
+   
+arguments  = 079 
+queue
+
+arguments  = 080 
+queue
+ 
+arguments  = 081 
+queue
+
+arguments  = 082 
+queue
+   
+arguments  = 083 
+queue
+
+arguments  = 084 
+queue
+ 
+arguments  = 085 
+queue
+
+arguments  = 086 
+queue
+   
+arguments  = 087 
+queue
+
+arguments  = 088 
+queue
+ 
+arguments  = 089 
+queue
+
+arguments  = 090 
+queue
+   
+arguments  = 091 
+queue
+
+arguments  = 092 
+queue
+ 
+arguments  = 093 
+queue
+
+arguments  = 094 
+queue
+   
+arguments  = 095 
+queue
+
+arguments  = 096 
+queue
+ 
+arguments  = 097 
+queue
+
+arguments  = 098 
+queue
+   
+arguments  = 099 
+queue
+
+arguments  = 100 
+queue
+ 
+arguments  = 101 
+queue
+
+arguments  = 102 
+queue
+   
+arguments  = 103 
+queue
+
+arguments  = 104 
+queue
+ 
+arguments  = 105 
+queue
+
+arguments  = 106 
+queue
+   
+arguments  = 107 
+queue
+
+arguments  = 108 
+queue
+ 
