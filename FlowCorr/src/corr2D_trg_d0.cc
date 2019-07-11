@@ -246,10 +246,10 @@ int main(int argc, char** argv)
                   double effweight_ass = effVect_ass.at(iass);
                   if(ana::rejectDaughter_){
                      if(fabs(pvector_ass.Eta() - pVect_dau1_d0[imass][ipt].at(id0).Eta())<0.03
-                           && fabs(pvector_ass.Phi() - pVect_dau1_d0[imass][ipt].at(id0).Phi())<0.03)
+                           && fabs(pvector_ass.DeltaPhi(pVect_dau1_d0[imass][ipt].at(id0)))<0.03)
                         continue;
                      if(fabs(pvector_ass.Eta() - pVect_dau2_d0[imass][ipt].at(id0).Eta())<0.03
-                           && fabs(pvector_ass.Phi() - pVect_dau2_d0[imass][ipt].at(id0).Phi())<0.03)
+                           && fabs(pvector_ass.DeltaPhi(pVect_dau2_d0[imass][ipt].at(id0)))<0.03)
                         continue;
                   }
 
